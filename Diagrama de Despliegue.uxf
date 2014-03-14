@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>230</x>
+      <y>240</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>center:&lt;&lt;device&gt;&gt;
+center:PC</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>530</x>
+      <y>180</y>
+      <w>250</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>center:&lt;&lt;execution environment&gt;&gt;
+center:AppEngine</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Node</type>
+    <coordinates>
+      <x>500</x>
+      <y>90</y>
+      <w>320</w>
+      <h>370</h>
+    </coordinates>
+    <panel_attributes>center:&lt;&lt;device&gt;&gt;
+center:Google Server</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>300</x>
+      <y>220</y>
+      <w>220</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-
+_Link_</panel_attributes>
+    <additional_attributes>30;50;200;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Artefact</type>
+    <coordinates>
+      <x>580</x>
+      <y>260</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Artefact
+ Play-US</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

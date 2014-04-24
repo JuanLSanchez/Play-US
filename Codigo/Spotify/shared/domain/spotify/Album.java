@@ -2,10 +2,13 @@
 package aiss.shared.domain.spotify;
 
 import java.io.Serializable;
-import java.util.List;
 
 public class Album implements Serializable{
-   	private Availability availability;
+   	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private Availability availability;
    	private String href;
    	private String name;
    	private String released;

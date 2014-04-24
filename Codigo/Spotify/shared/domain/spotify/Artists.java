@@ -2,10 +2,13 @@
 package aiss.shared.domain.spotify;
 
 import java.io.Serializable;
-import java.util.List;
 
 public class Artists implements Serializable{
-   	private String href;
+   	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String href;
    	private String name;
 
  	public String getHref(){

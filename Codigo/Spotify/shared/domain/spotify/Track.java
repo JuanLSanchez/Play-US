@@ -5,7 +5,11 @@ import java.io.Serializable;
 import java.util.List;
 
 public class Track implements Serializable{
-   	private Info info;
+   	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private Info info;
    	private List<Tracks> tracks;
 
  	public Info getInfo(){

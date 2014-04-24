@@ -4,10 +4,18 @@ package aiss.shared.domain.spotify;
 import java.io.Serializable;
 import java.util.List;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
+
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class Tracks implements Serializable{
-   	private Album album;
+   	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private Album album;
    	private List<Artists> artists;
-   	private List<ID> ID;
+   	//private List<ID> ID;
    	private String href;
    	private Number length;
    	private String name;
@@ -26,12 +34,12 @@ public class Tracks implements Serializable{
 	public void setArtists(List<Artists> artists){
 		this.artists = artists;
 	}
- 	public List<ID> getExternalIds(){
+ 	/*public List<ID> getID(){
 		return this.ID;
 	}
 	public void setID(List<ID> ID){
-		this.ID=ID;
-	}
+		this.ID = ID;
+	}*/
  	public String getHref(){
 		return this.href;
 	}

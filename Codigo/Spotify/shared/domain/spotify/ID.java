@@ -2,7 +2,7 @@
 package aiss.shared.domain.spotify;
 
 import java.io.Serializable;
-import java.util.List;
+
 
 public class ID implements Serializable{
    	private String id;

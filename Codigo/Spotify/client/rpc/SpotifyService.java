@@ -1,13 +1,21 @@
-package aiss.client.rpc;
-
-import java.util.Collection;
+package aiss.client;
 
 import aiss.shared.domain.spotify.Track;
 
+
 import com.google.gwt.user.client.rpc.RemoteService;
+import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 
-public interface SpotifyService extends RemoteService{
+/**
+ * The client side stub for the RPC service.
+ */
+@RemoteServiceRelativePath("mashup")
+public interface SpotifyService extends RemoteService {
+	Track buscaCancion(String cancion);
 	
-	Collection<Track> getCanciones(String cancion);
-
+	
+	
+	
+	
 }
+	

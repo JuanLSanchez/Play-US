@@ -2,10 +2,13 @@
 package aiss.shared.domain.spotify;
 
 import java.io.Serializable;
-import java.util.List;
 
 public class Availability implements Serializable{
-   	private String territories;
+   	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String territories;
 
  	public String getTerritories(){
 		return this.territories;

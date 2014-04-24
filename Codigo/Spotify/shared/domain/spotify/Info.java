@@ -2,10 +2,13 @@
 package aiss.shared.domain.spotify;
 
 import java.io.Serializable;
-import java.util.List;
 
 public class Info implements Serializable{
-   	private Number limit;
+   	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private Number limit;
    	private Number num_results;
    	private Number offset;
    	private Number page;

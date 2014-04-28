@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/juanlu/Dropbox/ISS/2º IIS/AISS/restlet-gae-2.2.0/org.codehaus.jackson.core.jar"/>
+	<classpathentry kind="lib" path="/home/juanlu/Dropbox/ISS/2º IIS/AISS/restlet-gae-2.2.0/org.codehaus.jackson.mapper.jar"/>
+	<classpathentry kind="lib" path="/home/juanlu/Dropbox/ISS/2º IIS/AISS/restlet-gae-2.2.0/org.restlet.ext.gae.jar"/>
+	<classpathentry kind="lib" path="/home/juanlu/Dropbox/ISS/2º IIS/AISS/restlet-gae-2.2.0/org.restlet.ext.jackson.jar"/>
+	<classpathentry kind="lib" path="/home/juanlu/Dropbox/ISS/2º IIS/AISS/restlet-gae-2.2.0/org.restlet.ext.net.jar"/>
+	<classpathentry kind="lib" path="/home/juanlu/Dropbox/ISS/2º IIS/AISS/restlet-gae-2.2.0/org.restlet.jar"/>
+	<classpathentry kind="lib" path="/home/juanlu/Dropbox/ISS/2º IIS/AISS/restlet-gae-2.2.0/com.google.gson.jar"/>
+	<classpathentry kind="lib" path="/home/juanlu/Dropbox/ISS/2º IIS/AISS/Proyecto/Play-US/Play_US/war/WEB-INF/lib/gwt-voices-3.3.0.jar"/>
+	<classpathentry kind="lib" path="/home/juanlu/Dropbox/ISS/2º IIS/AISS/Proyecto/Play-US/Play_US/war/WEB-INF/lib/gwt-oauth2-0.2-alpha.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

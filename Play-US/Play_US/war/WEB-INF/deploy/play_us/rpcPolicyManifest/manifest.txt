@@ -1,0 +1,7 @@
+# Module play_us
+# RPC service class, partial path of RPC policy file
+play_us.client.rpc.Grooveshark, 80FEE8324854348C878AC80D820EE467.gwt.rpc
+play_us.client.rpc.FacebookService, 5C34782763B5CED1AE4F271C3BBBA376.gwt.rpc
+play_us.client.rpc.GoogleDrive, 5D9A03E2272A2634A9A6C275FBC87EC6.gwt.rpc
+play_us.client.rpc.Spotify, 226122C37270DE4FDF5A728E171D988E.gwt.rpc
+play_us.client.rpc.Soundcloud, 19A87AC8344CD44F4BD092EB59D0A71F.gwt.rpc

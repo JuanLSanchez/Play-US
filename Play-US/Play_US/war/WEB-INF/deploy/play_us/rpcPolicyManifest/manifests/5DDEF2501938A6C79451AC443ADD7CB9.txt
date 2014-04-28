@@ -1,0 +1,2 @@
+serviceClass: play_us.client.rpc.Grooveshark
+path: 80FEE8324854348C878AC80D820EE467.gwt.rpc

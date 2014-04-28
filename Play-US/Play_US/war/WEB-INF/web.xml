@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+  <!-- Servlets -->
+  
+  <servlet>
+  	<servlet-name>googleDriveServlet</servlet-name>
+  	<servlet-class>play_us.server.rpc.GoogleDriveImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>googleDriveServlet</servlet-name>
+  	<url-pattern>/play_us/googleDrive</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>spotifyServlet</servlet-name>
+  	<servlet-class>play_us.server.rpc.SpotifyImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>spotifyServlet</servlet-name>
+  	<url-pattern>/play_us/Spotify</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>facebookServlet</servlet-name>
+    <servlet-class>play_us.server.rpc.FacebookImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>facebookServlet</servlet-name>
+    <url-pattern>/play_us/FaceBook</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>groovesharkServlet</servlet-name>
+    <servlet-class>play_us.server.rpc.GroovesharkImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>groovesharkServlet</servlet-name>
+    <url-pattern>/play_us/GrooveShark</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>soundcloudServlet</servlet-name>
+    <servlet-class>play_us.server.rpc.SoundcloudImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>soundcloudServlet</servlet-name>
+    <url-pattern>/play_us/SoundCloud</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>Play_US.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

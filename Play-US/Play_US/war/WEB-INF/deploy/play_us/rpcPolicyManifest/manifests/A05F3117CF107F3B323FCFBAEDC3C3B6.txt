@@ -1,0 +1,2 @@
+serviceClass: play_us.client.rpc.GoogleDrive
+path: 5D9A03E2272A2634A9A6C275FBC87EC6.gwt.rpc

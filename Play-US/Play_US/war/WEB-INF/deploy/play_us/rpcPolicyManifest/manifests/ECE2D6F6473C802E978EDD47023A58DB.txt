@@ -1,0 +1,2 @@
+serviceClass: play_us.client.rpc.Soundcloud
+path: 19A87AC8344CD44F4BD092EB59D0A71F.gwt.rpc

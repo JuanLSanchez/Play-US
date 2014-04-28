@@ -1,0 +1,2 @@
+serviceClass: play_us.client.rpc.Spotify
+path: 226122C37270DE4FDF5A728E171D988E.gwt.rpc

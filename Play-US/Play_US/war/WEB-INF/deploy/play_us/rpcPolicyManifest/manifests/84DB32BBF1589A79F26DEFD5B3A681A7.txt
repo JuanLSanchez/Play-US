@@ -1,0 +1,2 @@
+serviceClass: play_us.client.rpc.FacebookService
+path: 5C34782763B5CED1AE4F271C3BBBA376.gwt.rpc

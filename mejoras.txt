@@ -1,0 +1,8 @@
+Introducción:
+la frase :"y las canciones que tengas" quitala (es la que te dije ayer) 
+
+1.1: la url de la documentación de twitter cambialo por: http://twitter4j.org/oldjavadocs/4.0.2-SNAPSHOT/index.html
+
+3.1: he subido un nuevo diagrama con los componentes finales para que lo cambies.
+
+3.3 vamos a incluir al final el diagrama de clases?
